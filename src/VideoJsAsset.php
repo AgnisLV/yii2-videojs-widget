@@ -5,7 +5,7 @@
  * @license   https://github.com/wbraganca/yii2-videojs-widget/blob/master/LICENSE
  */
 
-namespace wbraganca\videojs;
+namespace AgnisLV\videojs;
 
 /**
  * Asset bundle for videojs Widget
