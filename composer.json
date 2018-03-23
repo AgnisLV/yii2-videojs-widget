@@ -26,7 +26,8 @@
     ],
     "require": {
         "yiisoft/yii2": ">=2.0",
-        "bower-asset/video.js": ">=6.3.3"
+        "bower-asset/video.js": ">=6.3.3",
+        "bower-asset/videojs-resolution-selector": ">=1.6.2"
     },
     "autoload": {
         "psr-4": {
@@ -40,6 +41,10 @@
         },
         "asset-ignore-files": {
             "bower-asset/video.js": [
+                "*/**",
+                "!dist/*"
+            ],
+            "bower-asset/videojs-resolution-selector": [
                 "*/**",
                 "!dist/*"
             ]
