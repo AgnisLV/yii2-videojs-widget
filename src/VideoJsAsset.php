@@ -14,7 +14,7 @@ namespace AgnisLV\videojs;
  */
 class VideoJsAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/video.js/dist';
+    public $sourcePath = '@bower/video.js/';
 
     public $css = [
         'video-js.min.css',
